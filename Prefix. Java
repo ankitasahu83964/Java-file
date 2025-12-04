@@ -1,0 +1,21 @@
+import java.util.*;
+public class main {
+	public static void main(String[] args) {
+		String[] arr=("flower","flow","flight");
+		String s1=sc.nextLine();
+		String s2=sc.nextLine();
+		int[] arr1= new int[26];
+		int[] arr2=new int[26];
+		for(int i=0;i<s1.lenght;i++){
+		int s1c=s1.charAt(i)-'a';
+		int s2c=s2.charAt(i)-'a';
+		if(arr1[s1c]==s2c||arr1[s1c]==0)
+		   arr1[s1c]=s2c;
+		   else System.out.println("not isomorphic");
+		 if(arr2[s2c]==s1c||arr2[s2c]==0)
+		    arr2[s2c]=s1c;
+	
+	else System.out.println("not isomorphic");
+}
+ System.out.println("isomarphic");
+	}}
