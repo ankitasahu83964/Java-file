@@ -1,0 +1,32 @@
+import java.util.*;
+class car{
+	static int wheel=4;
+	String name;
+	int year;	
+	public void fun(){
+		int started=1;
+		if(started==1){
+		System.out.println("the engine  is start");
+	}
+	else{
+   	System.out.println("the engine is not  started");
+   }
+	}
+	public void info(){
+		System.out.println("The car name is "+this.name);
+		System.out.println("The car wheel is "+this.wheel);
+	}
+}
+public class oops{
+	public static void main(String[] args) {
+		car s1=new car();
+		s1.name="BMW";
+		s1.year=2016; 
+		s1.info();				
+	   car s2=new car();
+		s2.name="A";
+		s2.year=2019;
+	    s2.info();
+	    
+	}
+}
