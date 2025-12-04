@@ -1,0 +1,12 @@
+public class Main {
+	public static void main(String[] args) {
+	 
+	
+	   int a=10;
+	  int b=23;
+	  int c=7;
+	  int total=a+b+c;
+	  int avg= total/3;
+	  System.out.println("the avg is"+avg);
+	}
+}
