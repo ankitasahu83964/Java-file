@@ -1,0 +1,36 @@
+import java.util.*;
+class car{
+	String name;
+	int year;
+	String colour;
+	public void start(){
+		System.out.println("the car is start");
+	}
+   public void stop(){
+   	System.out.println("the car is stop");
+   }
+	
+	public void get_info(){
+		System.out.println("The car name is "+this.name);
+		System.out.println("The car year is "+this.year);
+		System.out.println("the car colour is "+this.colour);
+	}
+}
+public class main{
+	public static void main(String[] args) {
+		car s1=new car();
+		s1.name="BMW";
+		s1.year=2016; 
+		s1.colour="black";
+		s1.get_info();
+		s1.start();
+		s1.stop();
+	   car s2=new car();
+		s2.name="A";
+		s2.year=2019;
+		s2.colour="red";
+	    s2.get_info();
+	    s2.start();
+	    s2.stop();
+	}
+}
