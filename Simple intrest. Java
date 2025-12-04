@@ -1,0 +1,9 @@
+public class Main {
+	public static void main(String[] args) {
+		int principle=10;
+		int rate=5;
+		int time=5;
+		int si=principle*rate*time;
+		System.out.print("the simple intrest is="+si);	
+	}
+}
