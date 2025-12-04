@@ -1,0 +1,14 @@
+import java.util.*;
+class demo{
+	int age;
+	String name;
+	public void get_info(){
+		System.out.println("The name of the student is"+this.name);
+		System.out.println("the age of the student is"+this.age);
+	}
+}
+public class student{
+	public static void main(String[] args) {
+		demo s1=new demo();
+	}
+}
